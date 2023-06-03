@@ -1,0 +1,51 @@
+body{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(221, 221, 221);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    font-size: 80%;
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: none;
+}
+canvas{
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px black;
+}
+div.g_rel{
+    position: absolute;
+    top: 760px;
+    left: 120px;
+}
+
+.g_head{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+#g_start{
+    background-color: #b7dcff;
+    letter-spacing: 2px;
+    padding: 0 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#g_start:hover{
+    background-color: #ffb7cf;
+    color: white;
+}
